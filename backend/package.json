@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "axios": "^1.7.7",
+    "bcryptjs": "^2.4.3",
+    "crypto": "^1.0.1",
+    "dayjs": "^1.11.13",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "express-validator": "^7.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.6.3",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.9.15"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "frontend-build": "cd ../frontend && npm install && npm run build",
+    "backend-build": "npm install",
+    "build": "npm run frontend-build && npm run backend-build",
+    "dev":   "nodemon server.js"
+}
+}

@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+  @font-face {
+    font-family: 'f1';
+    src: url('./Assets/font/OpenSans.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'f2';
+    src: url('./Assets/font/LinBiolinum_R.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'f3';
+    src: url('./Assets/font/Century Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  body {
+    font-family: 'f1', 'f2', 'f3';
+  }
+}
