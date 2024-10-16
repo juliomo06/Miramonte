@@ -18,7 +18,7 @@
   },
   "name": "backend",
   "version": "1.0.0",
-  "main": "middleware.js",
+  "main": "server.js",
   "devDependencies": {},
   "keywords": [],
   "author": "",
